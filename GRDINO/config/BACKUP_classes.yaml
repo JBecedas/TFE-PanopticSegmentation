@@ -1,0 +1,178 @@
+# Si se sube mucho el bbox_treshold se pierden muchos edificios, si se baja mucho se detectan cosas falsas
+# Si se sube mucho el text_treshold se pierden muchos vehiculos, si se baja mucho se detectan cosas falsas
+# ============================================================
+# GroundingDINO + SAM
+# Multi-pass configuration for military base detection
+# Optimized for 512x512 satellite/drone tiles
+# ============================================================
+
+passes:
+
+  # ==========================================================
+  # PASS 1 — Military Vehicles
+  # ==========================================================
+  - name: military_vehicles
+
+    text_prompts:
+      - "military vehicle."
+      - "camouflaged military vehicle."
+      - "khaki military vehicle."
+      - "military truck."
+      - "army truck."
+      - "cargo military truck."
+      - "camouflaged military truck."
+      - "armored vehicle."
+      - "tracked armored vehicle."
+      - "tank."
+      - "tracked tank."
+      - "main battle tank."
+      - "camouflaged tank."
+
+    box_threshold: 0.12
+    text_threshold: 0.18
+    nms_threshold: 0.65
+
+    outlier_rejection:
+      enabled: true
+      min_area_ratio: 0.00001
+      max_area_ratio: 0.015
+      min_aspect: 0.35
+      max_aspect: 4.5
+      min_confidence: 0.12
+
+
+  # ==========================================================
+  # PASS 2 — Buildings / Warehouses / Hangars
+  # ==========================================================
+  - name: buildings
+
+    text_prompts:
+      - "flat roof building."
+      - "rectangular roof."
+      - "large rectangular roof."
+      - "building roof."
+      - "rooftop."
+      - "rectangular rooftop."
+      - "industrial roof."
+      - "warehouse roof."
+      - "military building."
+      - "rectangular building."
+      - "industrial building."
+      - "warehouse."
+      - "hangar."
+
+    box_threshold: 0.07
+    text_threshold: 0.13
+    nms_threshold: 0.65
+
+    outlier_rejection:
+      enabled: true
+      min_area_ratio: 0.0015
+      max_area_ratio: 0.55
+      min_aspect: 0.25
+      max_aspect: 8.0
+      min_confidence: 0.08
+
+
+  # ==========================================================
+  # PASS 3 — Fuel Infrastructure
+  # ==========================================================
+  - name: fuel_infrastructure
+
+    text_prompts:
+      - "fuel storage tank."
+      - "cylindrical fuel tank."
+      - "oil tank."
+      - "fuel depot."
+      - "fuel facility."
+      - "fuel tank."
+
+    box_threshold: 0.12
+    text_threshold: 0.18
+    nms_threshold: 0.55
+
+    outlier_rejection:
+      enabled: true
+      min_area_ratio: 0.00005
+      max_area_ratio: 0.04
+      min_aspect: 0.60
+      max_aspect: 1.60
+      min_confidence: 0.12
+
+
+  # ==========================================================
+  # PASS 4 — Roads / Tracks
+  # ==========================================================
+  - name: roads_and_tracks
+
+    text_prompts:
+      - "military road."
+      - "service road."
+      - "dirt road."
+      - "vehicle track."
+      - "access road."
+      - "internal road."
+
+    box_threshold: 0.10
+    text_threshold: 0.15
+    nms_threshold: 0.50
+
+    outlier_rejection:
+      enabled: true
+      min_area_ratio: 0.0005
+      max_area_ratio: 0.25
+      min_aspect: 1.5
+      max_aspect: 12.0
+      min_confidence: 0.10
+
+
+  # ==========================================================
+  # PASS 5 — Perimeter / Fences / Walls
+  # ==========================================================
+  - name: perimeter_structures
+
+    text_prompts:
+      - "perimeter wall."
+      - "security fence."
+      - "concrete wall."
+      - "fenced compound."
+      - "compound wall."
+      - "security perimeter fence."
+
+    box_threshold: 0.10
+    text_threshold: 0.15
+    nms_threshold: 0.50
+
+    outlier_rejection:
+      enabled: true
+      min_area_ratio: 0.0001
+      max_area_ratio: 0.20
+      min_aspect: 1.5
+      max_aspect: 15.0
+      min_confidence: 0.10
+
+
+  # ==========================================================
+  # PASS 6 — Communication / Radar
+  # ==========================================================
+  - name: communication_and_radar
+
+    text_prompts:
+      - "communication tower."
+      - "radio tower."
+      - "antenna tower."
+      - "radar antenna."
+      - "military radar."
+      - "air surveillance radar."
+
+    box_threshold: 0.12
+    text_threshold: 0.18
+    nms_threshold: 0.55
+
+    outlier_rejection:
+      enabled: true
+      min_area_ratio: 0.00001
+      max_area_ratio: 0.03
+      min_aspect: 0.30
+      max_aspect: 6.0
+      min_confidence: 0.12

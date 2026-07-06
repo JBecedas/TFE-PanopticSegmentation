@@ -1,0 +1,1 @@
+Enhance the quality of this satellite aerial photograph: sharpen edges, reduce JPEG compression artifacts and noise, increase visual clarity and detail. Preserve the exact geographic structures, buildings, roads, and geometry. Do not add, remove, or modify any element. Output same composition.

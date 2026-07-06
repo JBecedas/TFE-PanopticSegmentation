@@ -1,0 +1,36 @@
+services:
+  segment_anything_model:
+    container_name: label-studio-sam-backend
+    image: heartexlabs/label-studio-ml-backend:sam-master
+    deploy:
+      resources:
+        limits:
+          memory: 12G
+        reservations:
+          memory: 6G
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    environment:
+      # Modelo: SAM (ViT-H original, 2.4GB), MobileSAM (ligero) o ONNX
+      - SAM_CHOICE=SAM
+      # Ruta dentro del contenedor donde se montan los pesos (ver volumes)
+      - VITH_CHECKPOINT=/app/models/sam_vit_h_4b8939.pth
+      # GPU
+      - NVIDIA_VISIBLE_DEVICES=all
+      # Servidor
+      - WORKERS=1
+      - THREADS=8
+      - LOG_LEVEL=DEBUG
+      - MODEL_DIR=/data/models
+      # Label Studio — leer de .env
+      - LABEL_STUDIO_HOST=${LABEL_STUDIO_HOST}
+      - LABEL_STUDIO_ACCESS_TOKEN=${LABEL_STUDIO_ACCESS_TOKEN}
+    ports:
+      - "9090:9090"
+    volumes:
+      # Montar los pesos ya descargados (2.4 GB) — evita re-descarga
+      - "C:/TFM/Labeling/scripts/sam_vit_h_4b8939.pth:/app/models/sam_vit_h_4b8939.pth:ro"
+      # Directorio de datos del servidor ML
+      - "./data/server:/data"

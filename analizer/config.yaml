@@ -1,0 +1,5 @@
+HF_Token : <YOUR_HUGGINGFACE_TOKEN>
+  description: "Hugging Face API token for accessing models and datasets."
+  type: string
+  required: true
+  default: ""

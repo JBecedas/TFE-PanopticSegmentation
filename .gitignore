@@ -1,0 +1,152 @@
+# ============================================================
+# OS
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+$RECYCLE.BIN/
+ehthumbs.db
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+
+# ============================================================
+# Jupyter
+# ============================================================
+.ipynb_checkpoints/
+
+# ============================================================
+# Virtual environments
+# ============================================================
+.venv/
+venv/
+env/
+ENV/
+
+# ============================================================
+# Claude / Agent
+# ============================================================
+.claude/
+.agent/
+
+# ============================================================
+# Model weights (large binary files)
+# ============================================================
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+
+# ============================================================
+# Secrets
+# ============================================================
+.env
+!.env.example
+
+# ============================================================
+# Directorios NO seleccionados (excluir completamente)
+# ============================================================
+SAM/
+PSEUDO-LABEL/
+Data_augmentation/
+wireguard_setup/
+
+# ============================================================
+# Node.js
+# ============================================================
+node_modules/
+
+# ============================================================
+# Databases
+# ============================================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================================
+# Archives
+# ============================================================
+*.rar
+
+# ============================================================
+# Labeling - exclude all data & exports (too large / private)
+# ============================================================
+Labeling/data/
+Labeling/exports/
+
+# ============================================================
+# label-studio-ml - exclude runtime data
+# ============================================================
+label-studio-ml/data/
+label-studio-ml/.env
+
+# ============================================================
+# src - only include dataset_V1; exclude everything else
+# ============================================================
+src/images/
+src/Buffer/
+src/imagenes_memoria/
+src/Test/
+src/data/
+src/dataset/Dataset_V11/
+src/dataset/export_from_label-studio/
+src/*.json
+src/*.xlsx
+src/*.zip
+
+# ============================================================
+# Archivos temporales / internos
+# ============================================================
+implementation_plan.md
+
+# ============================================================
+# analizer - exclude heavy checkpoints
+# ============================================================
+analizer/checkpoints/
+analizer/results/
+analizer/results.rar
+
+# ============================================================
+# GRDINO - exclude weights
+# ============================================================
+GRDINO/weights/
+GRDINO/outputs/
+
+# ============================================================
+# IMGscale - exclude weights (images are kept as samples)
+# ============================================================
+IMGscale/weights/
+
+# ============================================================
+# gemini_labeling - exclude most outputs, keep selected samples
+# ============================================================
+gemini_labeling/outputs/RLE/
+gemini_labeling/outputs/masks/Cabo_Noval/
+gemini_labeling/outputs/masks/Constantina_radar/
+gemini_labeling/outputs/masks/Frasno_radar/
+gemini_labeling/outputs/masks/General_menacho_botoa/
+gemini_labeling/outputs/masks/Penas_del_chache_radar/
+gemini_labeling/outputs/masks/Pozo_Canarias_radar/
+gemini_labeling/outputs/masks/Puig_mayor_radar/
+gemini_labeling/outputs/masks/San_Clemente/
+gemini_labeling/outputs/masks/Viator/
+gemini_labeling/outputs/Gemini_to_label_studio_V2_preEraseBBox.json
+gemini_labeling/outputs/Gemini_to_label_studio.json
+gemini_labeling/outputs/Gemini_to_label_studio_prueba.json
+gemini_labeling/outputs/RLE.zip
+
+# GOLOSO_18: keep only first 3 images alphabetically
+gemini_labeling/outputs/masks/GOLOSO_18/GOLOSO_18_2_main_mask_pure.png
+gemini_labeling/outputs/masks/GOLOSO_18/GOLOSO_18_2_tile_*

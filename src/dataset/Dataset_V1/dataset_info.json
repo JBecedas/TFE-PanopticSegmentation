@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "split_mode": "location",
+  "split_config": "C:\\TFM\\Dataset_Creator\\split_locations.yaml",
+  "random_seed": null,
+  "categories": [
+    {
+      "id": 1,
+      "name": "military_vehicles",
+      "supercategory": "military_facility",
+      "isthing": 1
+    },
+    {
+      "id": 2,
+      "name": "buildings",
+      "supercategory": "military_facility",
+      "isthing": 1
+    },
+    {
+      "id": 3,
+      "name": "fuel_infrastructure",
+      "supercategory": "military_facility",
+      "isthing": 1
+    },
+    {
+      "id": 4,
+      "name": "roads_and_tracks",
+      "supercategory": "military_facility",
+      "isthing": 0
+    },
+    {
+      "id": 5,
+      "name": "forest",
+      "supercategory": "military_facility",
+      "isthing": 0
+    },
+    {
+      "id": 6,
+      "name": "perimeter_structures",
+      "supercategory": "military_facility",
+      "isthing": 1
+    },
+    {
+      "id": 7,
+      "name": "communication_and_radar",
+      "supercategory": "military_facility",
+      "isthing": 1
+    }
+  ],
+  "stats": {
+    "train": {
+      "images": 62,
+      "segments": 1193,
+      "segments_per_category": {
+        "buildings": 559,
+        "communication_and_radar": 15,
+        "forest": 59,
+        "fuel_infrastructure": 20,
+        "military_vehicles": 422,
+        "perimeter_structures": 56,
+        "roads_and_tracks": 62
+      }
+    },
+    "val": {
+      "images": 11,
+      "segments": 242,
+      "segments_per_category": {
+        "buildings": 137,
+        "forest": 11,
+        "fuel_infrastructure": 6,
+        "military_vehicles": 66,
+        "perimeter_structures": 11,
+        "roads_and_tracks": 11
+      }
+    },
+    "test": {
+      "images": 29,
+      "segments": 451,
+      "segments_per_category": {
+        "buildings": 183,
+        "communication_and_radar": 3,
+        "forest": 29,
+        "fuel_infrastructure": 6,
+        "military_vehicles": 177,
+        "perimeter_structures": 24,
+        "roads_and_tracks": 29
+      }
+    }
+  },
+  "created": "2026-06-26T16:32:50.764921",
+  "source": {
+    "labelstudio_json": "C:\\TFM\\src\\dataset\\export_from_label-studio\\dataset_v1.json",
+    "images_root": "C:\\TFM\\src\\images\\google_maps_web"
+  }
+}

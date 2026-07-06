@@ -1,0 +1,233 @@
+# GroundingDINO + SAM — Multi-pass configuration
+# Optimized for aerial / satellite tiles (512×512)
+#
+# CALIBRATION WORKFLOW
+# ════════════════════
+# Before the final run, tune thresholds with the calibration tool:
+#
+#   # All classes, 5 random tiles from production:
+#   python pipeline_gdino_sam.py --calibrate
+#
+#   # One class on dedicated test images (recommended):
+#   python pipeline_gdino_sam.py --calibrate \
+#       --class military_vehicles \
+#       --images /path/to/test_images \
+#       --n-samples 10
+#
+# The tool outputs outputs/calibration/calibration_<timestamp>.md with:
+#   - Per-prompt detection counts  → remove prompts with 0 detections
+#   - Threshold grid (box × text)  → find the stable plateau
+#
+# THRESHOLD GUIDANCE
+# ══════════════════
+# box_threshold  : lower  → more recall, more false positives
+# text_threshold : lower  → more recall, more false positives
+# nms_threshold  : higher → fewer merged boxes (less aggressive NMS)
+#
+# PROMPT FORMAT
+# ═════════════
+# Each entry is used as an independent GroundingDINO call.
+# Trailing "." is added automatically if missing.
+# Keep prompts short (1–4 words) — GroundingDINO is a grounding model,
+# not a description model. Multi-word descriptions work but simple noun
+# phrases are most reliable, especially for aerial imagery.
+
+passes:
+
+  # ──────────────────────────────────────────────────────────────────────────
+  # PASS 1 — Military Vehicles
+  # Targets: MBTs, APCs, IFVs, military trucks visible from above
+  # Shape cues: tracks, angular profiles, open troop compartments
+  # Known issue: "tank" can also match civilian water/fuel tanks
+  #   → resolved by outlier_rejection area/aspect constraints
+  # ──────────────────────────────────────────────────────────────────────────
+  - name: military_vehicles
+
+    text_prompts:
+      - "military tank."
+      - "tank."
+      - "armored vehicle."
+      - "tracked vehicle."
+      - "military truck."
+      - "army truck."
+      - "armored personnel carrier."
+
+    box_threshold: 0.3
+    text_threshold: 0.04
+    nms_threshold: 0.35
+
+    outlier_rejection:
+      enabled: true
+      min_area_ratio: 0.0086695   # ~3×3 px on 512px tile
+      max_area_ratio: 0.88692     # max ~8% of tile (large tank)
+      min_aspect: 0.388
+      max_aspect: 1.923
+      min_confidence: 0.3021
+
+
+  # ──────────────────────────────────────────────────────────────────────────
+  # PASS 2 — Buildings / Warehouses / Hangars
+  # Targets: flat-roof industrial buildings, hangars
+  # Shape cues: rectangular footprint, uniform roof surface
+  # ──────────────────────────────────────────────────────────────────────────
+  - name: buildings
+
+    text_prompts:
+      - "building."
+      - "rooftop."
+      - "flat roof building."
+      - "warehouse."
+      - "hangar."
+      - "industrial building."
+      - "large rectangular building."
+
+    box_threshold: 0.35
+    text_threshold: 0.04
+    nms_threshold: 0.35
+
+    outlier_rejection:
+      enabled: true
+      min_area_ratio: 0.0623177   # at least ~20×20 px on 512px tile
+      max_area_ratio: 0.99
+      min_aspect: 0.524
+      max_aspect: 5.349
+      min_confidence: 0.3552
+
+
+  # ──────────────────────────────────────────────────────────────────────────
+  # PASS 3 — Fuel Infrastructure
+  # Targets: cylindrical / circular storage tanks
+  # Shape cues: circular or near-square bbox, shadow ring
+  # nms_threshold lowered: tanks cluster closely in depots
+  # ──────────────────────────────────────────────────────────────────────────
+  - name: fuel_infrastructure
+
+    text_prompts:
+      - "fuel storage tank."
+      - "cylindrical tank."
+      - "oil storage tank."
+      - "fuel tank."
+      - "storage tank."
+
+    box_threshold: 0.3
+    text_threshold: 0.04
+    nms_threshold: 0.35
+
+    outlier_rejection:
+      enabled: true
+      min_area_ratio: 0.0052446
+      max_area_ratio: 0.5741
+      min_aspect: 0.303          # near-square (circular tanks)
+      max_aspect: 2.413
+      min_confidence: 0.3061
+
+
+  # ──────────────────────────────────────────────────────────────────────────
+  # PASS 4 — Roads / Tracks  [STUFF CLASS]
+  # Targets: internal access roads, dirt tracks, unpaved paths
+  # is_stuff: true — SAM mask generated but no bounding box drawn/exported
+  # Note: GroundingDINO struggles with thin linear features;
+  #   outlier_rejection min_aspect enforces elongated bboxes
+  # ──────────────────────────────────────────────────────────────────────────
+  - name: roads_and_tracks
+    is_stuff: true
+
+    text_prompts:
+      - "road."
+      - "dirt road."
+      - "unpaved road."
+      - "access road."
+      - "vehicle track."
+
+    box_threshold: 0.32
+    text_threshold: 0.04
+    nms_threshold: 0.35
+
+    outlier_rejection:
+      enabled: true
+      min_area_ratio: 0.0555023
+      max_area_ratio: 0.87886
+      min_aspect: 0.446            # roads are elongated
+      max_aspect: 1.971
+      min_confidence: 0.3216
+
+
+  # ──────────────────────────────────────────────────────────────────────────
+  # PASS 5 — Forest / Vegetation  [STUFF CLASS]
+  # Targets: forest patches, tree clusters, woodland areas
+  # is_stuff: true — SAM mask generated but no bounding box drawn/exported
+  # ──────────────────────────────────────────────────────────────────────────
+  - name: forest
+    is_stuff: true
+
+    text_prompts:
+      - "trees."
+      - "forest."
+      - "woodland."
+
+    box_threshold: 0.30
+    text_threshold: 0.04
+    nms_threshold: 0.45
+
+    outlier_rejection:
+      enabled: true
+      min_area_ratio: 0.01
+      max_area_ratio: 0.99
+      min_aspect: 0.2
+      max_aspect: 5.0
+      min_confidence: 0.30
+
+
+  # ──────────────────────────────────────────────────────────────────────────
+  # PASS 6 — Perimeter / Fences / Walls
+  # Targets: security fences, compound walls
+  # Note: thin linear structures are hard to detect from aerial imagery;
+  #   expect lower recall — use calibration to tune thresholds
+  # ──────────────────────────────────────────────────────────────────────────
+  - name: perimeter_structures
+
+    text_prompts:
+      - "fence."
+      - "perimeter fence."
+      - "wall."
+      - "security fence."
+      - "concrete wall."
+
+    box_threshold: 0.32
+    text_threshold: 0.04
+    nms_threshold: 0.35
+
+    outlier_rejection:
+      enabled: true
+      min_area_ratio: 0.0369962
+      max_area_ratio: 0.6406
+      min_aspect: 0.338
+      max_aspect: 3.018
+      min_confidence: 0.3251
+
+
+  # ──────────────────────────────────────────────────────────────────────────
+  # PASS 7 — Communication / Radar
+  # Targets: towers, antennas, radar dishes
+  # Shape cues: tall thin vertical structure, circular dish shadow
+  # ──────────────────────────────────────────────────────────────────────────
+  - name: communication_and_radar
+
+    text_prompts:
+      - "communication tower."
+      - "radio tower."
+      - "antenna."
+      - "radar."
+      - "radar antenna."
+
+    box_threshold: 0.34
+    text_threshold: 0.04
+    nms_threshold: 0.35
+
+    outlier_rejection:
+      enabled: true
+      min_area_ratio: 0.0133555
+      max_area_ratio: 0.40143
+      min_aspect: 0.324
+      max_aspect: 1.28
+      min_confidence: 0.3433

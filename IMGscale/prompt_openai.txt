@@ -1,0 +1,26 @@
+TASK: Satellite Image Restoration and Enhancement
+
+Enhance and restore a satellite image while strictly preserving the original scene geometry, spatial relationships, scale, orientation, and framing.
+
+Generate a high-fidelity photorealistic satellite image with improved clarity, sharpness, and detail. Increase visibility of rooftops, roads, vehicles, infrastructure, terrain textures, vegetation patterns, agricultural fields, water boundaries, and urban features.
+
+Apply advanced denoising, artifact removal, deblurring, and local contrast enhancement while maintaining realistic colors, natural illumination, and consistent shadow directions. Preserve exact object positions, shapes, dimensions, and spatial distribution. Recover fine details without hallucinating new structures, roads, vehicles, terrain features, or modifying existing geographic elements.
+
+Maintain strict geospatial consistency suitable for remote sensing analysis, mapping, and visual interpretation. Improve image quality while preserving the original composition, camera perspective, orientation, scale, and framing.
+
+CRITICAL OUTPUT REQUIREMENTS:
+- Output format: JPEG
+- Output dimensions: exactly 512x512 pixels
+- Preserve original geometry and object locations
+- Preserve original shadow direction and lighting conditions
+- No hallucinated features or invented details
+- No changes to land use, terrain, infrastructure, or geographic content
+
+POSITIVE ATTRIBUTES:
+High-fidelity restoration, photorealistic appearance, ultra-clean details, crisp edges, accurate textures, balanced contrast, natural dynamic range, artifact-free reconstruction, realistic color reproduction, enhanced local detail, precise structure preservation, remote sensing quality, geospatial accuracy.
+
+NEGATIVE ATTRIBUTES:
+hallucinated buildings, invented roads, added vehicles, altered land use, modified geography, changed terrain, geometric distortion, perspective shift, object mutation, inaccurate shadows, unrealistic colors, oversaturation, excessive HDR, painting, illustration, cartoon, CGI, 3D render, artificial textures, plastic appearance, over-sharpening halos, ringing artifacts, compression artifacts, blur, motion blur, noise, grain, low resolution, pixelation, interpolation artifacts, altered composition, altered framing, altered scale, altered orientation.
+
+FINAL REQUIREMENT:
+Generate a high-quality JPEG image with EXACT dimensions of 512x512 pixels while maximizing detail recovery and preserving complete geospatial fidelity to the source satellite image.

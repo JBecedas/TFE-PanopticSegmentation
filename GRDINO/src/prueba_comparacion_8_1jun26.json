@@ -1,0 +1,2196 @@
+[
+  {
+    "id": 1,
+    "annotations": [
+      {
+        "id": 43,
+        "completed_by": 1,
+        "result": [
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 28.124531738073006,
+              "y": 13.403529398204187,
+              "width": 28.58558963541847,
+              "height": 30.08402780179121,
+              "rotation": 0,
+              "rectanglelabels": [
+                "buildings"
+              ]
+            },
+            "id": "TjQUO-zjqk",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 62.703874038982455,
+              "y": 33.11375450972257,
+              "width": 23.629217238954766,
+              "height": 14.753852715054682,
+              "rotation": 0,
+              "rectanglelabels": [
+                "buildings"
+              ]
+            },
+            "id": "bne52ngIYM",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 63.74125430800972,
+              "y": 50.403425660177284,
+              "width": 21.43919222656384,
+              "height": 12.333298753991023,
+              "rotation": 0,
+              "rectanglelabels": [
+                "buildings"
+              ]
+            },
+            "id": "rbkQPnMm62",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 12.679092177000125,
+              "y": 68.96100602833192,
+              "width": 10.258538215936456,
+              "height": 31.038993971668077,
+              "rotation": 0,
+              "rectanglelabels": [
+                "buildings"
+              ]
+            },
+            "id": "jAZsjvTRPt",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 42.302062081445875,
+              "y": 68.0388902336411,
+              "width": 23.168159341609318,
+              "height": 6.800603985845498,
+              "rotation": 0,
+              "rectanglelabels": [
+                "buildings"
+              ]
+            },
+            "id": "7zqMYbi28Z",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 57.05591479650051,
+              "y": 74.95475869382295,
+              "width": 7.7227197805364485,
+              "height": 25.045241306177047,
+              "rotation": 0,
+              "rectanglelabels": [
+                "buildings"
+              ]
+            },
+            "id": "XaIaS_LYDo",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 21.66972117523658,
+              "y": 67.69309681063201,
+              "width": 15.445439561072883,
+              "height": 7.031132934518254,
+              "rotation": 0,
+              "rectanglelabels": [
+                "buildings"
+              ]
+            },
+            "id": "TsAfByfMMu",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 85.8720333805918,
+              "y": 3.144991182267719,
+              "width": 2.9968763327455,
+              "height": 96.8550088177323,
+              "rotation": 0,
+              "rectanglelabels": [
+                "roads_and_tracks"
+              ]
+            },
+            "id": "HFHrtdX9jK",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 89.21470313634634,
+              "y": 42.56544140530447,
+              "width": 10.785296863653656,
+              "height": 8.529571100890998,
+              "rotation": 0,
+              "rectanglelabels": [
+                "roads_and_tracks"
+              ]
+            },
+            "id": "4_EILmob1A",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 9.451686895581911,
+              "y": 40.721209815922634,
+              "width": 5.30216581947278,
+              "height": 23.28342381594568,
+              "rotation": 0,
+              "rectanglelabels": [
+                "roads_and_tracks"
+              ]
+            },
+            "id": "VOeGX6Cd9W",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 47.21396118849274,
+              "y": 0.1360999997138871,
+              "width": 6.224281614163683,
+              "height": 57.12842013370015,
+              "rotation": 42.26243841935877,
+              "rectanglelabels": [
+                "roads_and_tracks"
+              ]
+            },
+            "id": "7FoNokDu5X",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 70.84975644372578,
+              "y": 22.251722039810133,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763683,
+              "rotation": 19.613536278286745,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "gDSrWNTyEJ",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 72.35273001176554,
+              "y": 21.607590510650247,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763683,
+              "rotation": 19.613536278286745,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "gGa_uyNr_N",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 73.9272737497119,
+              "y": 21.607590510650247,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763683,
+              "rotation": 19.613536278286745,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "wj4Bagkelp",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 75.78809816728487,
+              "y": 21.46445017083694,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763683,
+              "rotation": 19.613536278286745,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "l1FHWuAf-R",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 62.009148045210104,
+              "y": 8.795526691870418,
+              "width": 1.2636571372491572,
+              "height": 3.688463178763683,
+              "rotation": 347.5154509628735,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "FFxC_broHW",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 69.34678287568606,
+              "y": 22.10858169999682,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763683,
+              "rotation": 19.613536278286745,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "FhukrNa_1Z",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 63.5836917831565,
+              "y": 8.509246012243803,
+              "width": 1.2636571372491572,
+              "height": 3.688463178763683,
+              "rotation": 347.5154509628735,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "AnAuSI-n9c",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 65.15823552110287,
+              "y": 8.079824992803882,
+              "width": 1.2636571372491572,
+              "height": 3.688463178763683,
+              "rotation": 347.5154509628735,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "i-Qn6W7TyZ",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 68.48786212355952,
+              "y": 8.246377755508398,
+              "width": 1.2636571372491567,
+              "height": 4.177608100247228,
+              "rotation": 347.5154509628736,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "1gX5Koz-gx",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 71.4564104728884,
+              "y": 7.292553123830695,
+              "width": 1.2636571372491572,
+              "height": 3.688463178763683,
+              "rotation": 347.5154509628735,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "03pH8JAVa_",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 72.88781387102145,
+              "y": 6.934702274297424,
+              "width": 1.2636571372491572,
+              "height": 3.688463178763683,
+              "rotation": 347.5154509628735,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "FUaStGPJ3p",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 74.5339277788745,
+              "y": 6.576851424764158,
+              "width": 1.2636571372491572,
+              "height": 3.688463178763683,
+              "rotation": 347.5154509628735,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "bVBELSd2mR",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 76.0369013469142,
+              "y": 6.64842159467081,
+              "width": 1.2636571372491572,
+              "height": 3.688463178763683,
+              "rotation": 347.5154509628735,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "9hby9lg4O2",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 77.68301525476726,
+              "y": 6.290570745137542,
+              "width": 1.2636571372491572,
+              "height": 3.688463178763683,
+              "rotation": 347.5154509628735,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "RqqIBVeC_V",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 74.16985803795824,
+              "y": 30.02612708430104,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763688,
+              "rotation": 358.99946227122587,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "stForrRCDk",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 60.363034137357076,
+              "y": 8.938667031683725,
+              "width": 1.2636571372491572,
+              "height": 3.688463178763683,
+              "rotation": 347.5154509628735,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "x3CqOxs1jc",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 79.03662959161068,
+              "y": 29.882986744487745,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763688,
+              "rotation": 358.99946227122587,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "IRU1_W5_P9",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 82.4004275772234,
+              "y": 29.9545569143944,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763688,
+              "rotation": 358.99946227122587,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "MZtBzq5CDI",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 83.83183097535647,
+              "y": 29.882986744487738,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763688,
+              "rotation": 358.99946227122587,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "iB3n_Vbvrg",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 70.87763022225218,
+              "y": 29.73984640467443,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763688,
+              "rotation": 358.99946227122587,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "sFMdH6efM7",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 57.60665438101667,
+              "y": 7.42270331642017,
+              "width": 28.31159714420644,
+              "height": 2.6330167051552533,
+              "rotation": 346.1713490277208,
+              "rectanglelabels": [
+                "roads_and_tracks"
+              ]
+            },
+            "id": "p2lQS_J-dS",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 3.7441871091626674e-14,
+              "y": 6.200438047425246,
+              "width": 42.93099711972224,
+              "height": 36.78190052858553,
+              "rotation": 359.7902049061459,
+              "rectanglelabels": [
+                "forest"
+              ]
+            },
+            "id": "J2qIsaZQLu",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 88.00557880055788,
+              "y": 2.928870292887029,
+              "width": 11.994421199442115,
+              "height": 43.65411436541144,
+              "rotation": 0,
+              "rectanglelabels": [
+                "forest"
+              ]
+            },
+            "id": "tpjUNVsC6T",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 88.8423988842399,
+              "y": 46.582984658298464,
+              "width": 11.018131101813111,
+              "height": 53.138075313807526,
+              "rotation": 0,
+              "rectanglelabels": [
+                "forest"
+              ]
+            },
+            "id": "iZ74WzTy0B",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2026-06-08T18:24:56.828981Z",
+        "updated_at": "2026-06-08T19:44:11.802259Z",
+        "draft_created_at": "2026-06-08T18:18:19.044265Z",
+        "lead_time": 448.527,
+        "prediction": {},
+        "result_count": 35,
+        "unique_id": "41679338-d3c3-44bf-a0e7-318450546bfa",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1,
+        "project": 3,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "4da0df8c-test_annotations_labelStudio.json",
+    "drafts": [
+      {
+        "id": 53,
+        "user": "javiermbecedas@gmail.com",
+        "created_username": "javiermbecedas@gmail.com, 1",
+        "created_ago": "21 hours, 52 minutes",
+        "result": [
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 28.124531738073006,
+              "y": 13.403529398204187,
+              "width": 28.58558963541847,
+              "height": 30.08402780179121,
+              "rotation": 0,
+              "rectanglelabels": [
+                "buildings"
+              ]
+            },
+            "id": "TjQUO-zjqk",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 62.703874038982455,
+              "y": 33.11375450972257,
+              "width": 23.629217238954766,
+              "height": 14.753852715054682,
+              "rotation": 0,
+              "rectanglelabels": [
+                "buildings"
+              ]
+            },
+            "id": "bne52ngIYM",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 63.74125430800972,
+              "y": 50.403425660177284,
+              "width": 21.43919222656384,
+              "height": 12.333298753991023,
+              "rotation": 0,
+              "rectanglelabels": [
+                "buildings"
+              ]
+            },
+            "id": "rbkQPnMm62",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 12.679092177000125,
+              "y": 68.96100602833192,
+              "width": 10.258538215936456,
+              "height": 31.038993971668077,
+              "rotation": 0,
+              "rectanglelabels": [
+                "buildings"
+              ]
+            },
+            "id": "jAZsjvTRPt",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 42.302062081445875,
+              "y": 68.0388902336411,
+              "width": 23.168159341609318,
+              "height": 6.800603985845498,
+              "rotation": 0,
+              "rectanglelabels": [
+                "buildings"
+              ]
+            },
+            "id": "7zqMYbi28Z",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 57.05591479650051,
+              "y": 74.95475869382295,
+              "width": 7.7227197805364485,
+              "height": 25.045241306177047,
+              "rotation": 0,
+              "rectanglelabels": [
+                "buildings"
+              ]
+            },
+            "id": "XaIaS_LYDo",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 21.66972117523658,
+              "y": 67.69309681063201,
+              "width": 15.445439561072883,
+              "height": 7.031132934518254,
+              "rotation": 0,
+              "rectanglelabels": [
+                "buildings"
+              ]
+            },
+            "id": "TsAfByfMMu",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 85.8720333805918,
+              "y": 3.144991182267719,
+              "width": 2.9968763327455,
+              "height": 96.8550088177323,
+              "rotation": 0,
+              "rectanglelabels": [
+                "roads_and_tracks"
+              ]
+            },
+            "id": "HFHrtdX9jK",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 89.21470313634634,
+              "y": 42.56544140530447,
+              "width": 10.785296863653656,
+              "height": 8.529571100890998,
+              "rotation": 0,
+              "rectanglelabels": [
+                "roads_and_tracks"
+              ]
+            },
+            "id": "4_EILmob1A",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 9.451686895581911,
+              "y": 40.721209815922634,
+              "width": 5.30216581947278,
+              "height": 23.28342381594568,
+              "rotation": 0,
+              "rectanglelabels": [
+                "roads_and_tracks"
+              ]
+            },
+            "id": "VOeGX6Cd9W",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 47.21396118849274,
+              "y": 0.1360999997138871,
+              "width": 6.224281614163683,
+              "height": 57.12842013370015,
+              "rotation": 42.26243841935877,
+              "rectanglelabels": [
+                "roads_and_tracks"
+              ]
+            },
+            "id": "7FoNokDu5X",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 70.84975644372578,
+              "y": 22.251722039810133,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763683,
+              "rotation": 19.613536278286745,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "gDSrWNTyEJ",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 72.35273001176554,
+              "y": 21.607590510650247,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763683,
+              "rotation": 19.613536278286745,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "gGa_uyNr_N",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 73.9272737497119,
+              "y": 21.607590510650247,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763683,
+              "rotation": 19.613536278286745,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "wj4Bagkelp",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 75.78809816728487,
+              "y": 21.46445017083694,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763683,
+              "rotation": 19.613536278286745,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "l1FHWuAf-R",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 62.009148045210104,
+              "y": 8.795526691870418,
+              "width": 1.2636571372491572,
+              "height": 3.688463178763683,
+              "rotation": 347.5154509628735,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "FFxC_broHW",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 69.34678287568606,
+              "y": 22.10858169999682,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763683,
+              "rotation": 19.613536278286745,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "FhukrNa_1Z",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 63.5836917831565,
+              "y": 8.509246012243803,
+              "width": 1.2636571372491572,
+              "height": 3.688463178763683,
+              "rotation": 347.5154509628735,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "AnAuSI-n9c",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 65.15823552110287,
+              "y": 8.079824992803882,
+              "width": 1.2636571372491572,
+              "height": 3.688463178763683,
+              "rotation": 347.5154509628735,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "i-Qn6W7TyZ",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 68.48786212355952,
+              "y": 8.246377755508398,
+              "width": 1.2636571372491567,
+              "height": 4.177608100247228,
+              "rotation": 347.5154509628736,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "1gX5Koz-gx",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 71.4564104728884,
+              "y": 7.292553123830695,
+              "width": 1.2636571372491572,
+              "height": 3.688463178763683,
+              "rotation": 347.5154509628735,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "03pH8JAVa_",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 72.88781387102145,
+              "y": 6.934702274297424,
+              "width": 1.2636571372491572,
+              "height": 3.688463178763683,
+              "rotation": 347.5154509628735,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "FUaStGPJ3p",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 74.5339277788745,
+              "y": 6.576851424764158,
+              "width": 1.2636571372491572,
+              "height": 3.688463178763683,
+              "rotation": 347.5154509628735,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "bVBELSd2mR",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 76.0369013469142,
+              "y": 6.64842159467081,
+              "width": 1.2636571372491572,
+              "height": 3.688463178763683,
+              "rotation": 347.5154509628735,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "9hby9lg4O2",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 77.68301525476726,
+              "y": 6.290570745137542,
+              "width": 1.2636571372491572,
+              "height": 3.688463178763683,
+              "rotation": 347.5154509628735,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "RqqIBVeC_V",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 74.16985803795824,
+              "y": 30.02612708430104,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763688,
+              "rotation": 358.99946227122587,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "stForrRCDk",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 60.363034137357076,
+              "y": 8.938667031683725,
+              "width": 1.2636571372491572,
+              "height": 3.688463178763683,
+              "rotation": 347.5154509628735,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "x3CqOxs1jc",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 79.03662959161068,
+              "y": 29.882986744487745,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763688,
+              "rotation": 358.99946227122587,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "IRU1_W5_P9",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 82.4004275772234,
+              "y": 29.9545569143944,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763688,
+              "rotation": 358.99946227122587,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "MZtBzq5CDI",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 83.83183097535647,
+              "y": 29.882986744487738,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763688,
+              "rotation": 358.99946227122587,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "iB3n_Vbvrg",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 70.87763022225218,
+              "y": 29.73984640467443,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763688,
+              "rotation": 358.99946227122587,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "sFMdH6efM7",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 57.60665438101667,
+              "y": 7.42270331642017,
+              "width": 28.31159714420644,
+              "height": 2.6330167051552533,
+              "rotation": 346.1713490277208,
+              "rectanglelabels": [
+                "roads_and_tracks"
+              ]
+            },
+            "id": "p2lQS_J-dS",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 3.7441871091626674e-14,
+              "y": 6.200438047425246,
+              "width": 42.93099711972224,
+              "height": 36.78190052858553,
+              "rotation": 359.7902049061459,
+              "rectanglelabels": [
+                "forest"
+              ]
+            },
+            "id": "J2qIsaZQLu",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 88.00557880055788,
+              "y": 2.928870292887029,
+              "width": 11.994421199442115,
+              "height": 43.65411436541144,
+              "rotation": 0,
+              "rectanglelabels": [
+                "forest"
+              ]
+            },
+            "id": "tpjUNVsC6T",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 88.8423988842399,
+              "y": 46.582984658298464,
+              "width": 11.018131101813111,
+              "height": 53.138075313807526,
+              "rotation": 0,
+              "rectanglelabels": [
+                "forest"
+              ]
+            },
+            "id": "iZ74WzTy0B",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 48.53556485355649,
+              "y": 5.578800557880056,
+              "width": 12.831241283124129,
+              "height": 29.428172942817298,
+              "rotation": 0,
+              "rectanglelabels": [
+                "forest"
+              ]
+            },
+            "id": "2Ni0JX1GMU",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 49.7907949790795,
+              "y": 0,
+              "width": 36.40167364016737,
+              "height": 7.949790794979079,
+              "rotation": 0,
+              "rectanglelabels": [
+                "forest"
+              ]
+            },
+            "id": "IkATdZI0tB",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 88.70292887029288,
+              "y": 58.856345885634575,
+              "width": 10.320781032078104,
+              "height": 22.03626220362622,
+              "rotation": 0,
+              "rectanglelabels": [
+                "roads_and_tracks"
+              ]
+            },
+            "id": "6b4mdl0rqh",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 21.896792189679218,
+              "y": 74.33751743375174,
+              "width": 34.58856345885634,
+              "height": 25.38354253835425,
+              "rotation": 0,
+              "rectanglelabels": [
+                "roads_and_tracks"
+              ]
+            },
+            "id": "dPt8NsocSN",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 12.97071129707113,
+              "y": 29.14923291492329,
+              "width": 49.9302649930265,
+              "height": 37.79637377963738,
+              "rotation": 0,
+              "rectanglelabels": [
+                "roads_and_tracks"
+              ]
+            },
+            "id": "_at9_YsEXU",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          }
+        ],
+        "lead_time": 40.981,
+        "was_postponed": false,
+        "import_id": null,
+        "created_at": "2026-06-08T19:49:55.666625Z",
+        "updated_at": "2026-06-08T19:50:53.987094Z",
+        "task": 1,
+        "annotation": 43
+      }
+    ],
+    "predictions": [],
+    "data": {
+      "image": "/data/local-files/?d=images/test/GOLOSO_18/GOLOSO_18_2_tile_r00_c04.jpeg"
+    },
+    "meta": {},
+    "created_at": "2026-06-08T18:17:00.321459Z",
+    "updated_at": "2026-06-08T19:44:11.912972Z",
+    "allow_skip": true,
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 3,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2,
+    "annotations": [
+      {
+        "id": 44,
+        "completed_by": 1,
+        "result": [
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 28.124531738073006,
+              "y": 13.403529398204187,
+              "width": 28.58558963541847,
+              "height": 30.08402780179121,
+              "rotation": 0,
+              "rectanglelabels": [
+                "buildings"
+              ]
+            },
+            "id": "Gt-SMsntLE",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 21.66972117523658,
+              "y": 67.69309681063201,
+              "width": 15.445439561072883,
+              "height": 7.031132934518254,
+              "rotation": 0,
+              "rectanglelabels": [
+                "buildings"
+              ]
+            },
+            "id": "nnHnqZvKhQ",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 12.679092177000125,
+              "y": 68.96100602833192,
+              "width": 10.258538215936456,
+              "height": 31.038993971668077,
+              "rotation": 0,
+              "rectanglelabels": [
+                "buildings"
+              ]
+            },
+            "id": "VBFcF3YDdj",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 57.05591479650051,
+              "y": 74.95475869382295,
+              "width": 7.7227197805364485,
+              "height": 25.045241306177047,
+              "rotation": 0,
+              "rectanglelabels": [
+                "buildings"
+              ]
+            },
+            "id": "oRJcjIuAvV",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 42.302062081445875,
+              "y": 68.0388902336411,
+              "width": 23.168159341609318,
+              "height": 6.800603985845498,
+              "rotation": 0,
+              "rectanglelabels": [
+                "buildings"
+              ]
+            },
+            "id": "VdEczBO29S",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 62.703874038982455,
+              "y": 33.11375450972257,
+              "width": 23.629217238954766,
+              "height": 14.753852715054682,
+              "rotation": 0,
+              "rectanglelabels": [
+                "buildings"
+              ]
+            },
+            "id": "Av2FCXaizH",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 63.74125430800972,
+              "y": 50.403425660177284,
+              "width": 21.43919222656384,
+              "height": 12.333298753991023,
+              "rotation": 0,
+              "rectanglelabels": [
+                "buildings"
+              ]
+            },
+            "id": "uOIsCePceM",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 71.4564104728884,
+              "y": 7.292553123830711,
+              "width": 1.263657137249157,
+              "height": 3.913541118048948,
+              "rotation": 347.51545096287356,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "NGA5v9NH1l",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 72.88781387102145,
+              "y": 6.934702274297424,
+              "width": 1.2636571372491572,
+              "height": 3.688463178763683,
+              "rotation": 347.5154509628735,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "AOCGBHW5lR",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 74.5339277788745,
+              "y": 6.576851424764158,
+              "width": 1.2636571372491572,
+              "height": 3.688463178763683,
+              "rotation": 347.5154509628735,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "I9feowT3o5",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 76.03690134691423,
+              "y": 6.648421594670806,
+              "width": 1.2636571372491572,
+              "height": 4.276075477805798,
+              "rotation": 347.51545096287356,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "ZEQR6ECdzz",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 77.68301525476721,
+              "y": 6.290570745137523,
+              "width": 1.263657137249156,
+              "height": 4.535646213872263,
+              "rotation": 347.51545096287356,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "XOpNiPgFFk",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 69.34678287568606,
+              "y": 22.10858169999682,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763683,
+              "rotation": 19.613536278286745,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "FQx84g4sve",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 70.84975644372578,
+              "y": 22.251722039810133,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763683,
+              "rotation": 19.613536278286745,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "tgi4rnENo5",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 72.35273001176554,
+              "y": 21.607590510650247,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763683,
+              "rotation": 19.613536278286745,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "5QY6Br3zoO",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 73.9272737497119,
+              "y": 21.607590510650247,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763683,
+              "rotation": 19.613536278286745,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "9hyzVqSWqS",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 75.78809816728487,
+              "y": 21.46445017083694,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763683,
+              "rotation": 19.613536278286745,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "3dPAc6CVkE",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 70.87763022225218,
+              "y": 29.73984640467443,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763688,
+              "rotation": 358.99946227122587,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "MaLedJoZyQ",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 74.16985803795824,
+              "y": 30.02612708430104,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763688,
+              "rotation": 358.99946227122587,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "QZ86gg1zhy",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 79.03662959161068,
+              "y": 29.882986744487745,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763688,
+              "rotation": 358.99946227122587,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "IGO1IPHzCV",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 82.4004275772234,
+              "y": 29.9545569143944,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763688,
+              "rotation": 358.99946227122587,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "bNKIQiZR_y",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 83.83183097535647,
+              "y": 29.882986744487738,
+              "width": 1.2636571372491574,
+              "height": 3.688463178763688,
+              "rotation": 358.99946227122587,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "sckDJwvDEk",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 68.48786212355952,
+              "y": 8.2463777555084,
+              "width": 1.263657137249157,
+              "height": 4.540142460004066,
+              "rotation": 347.5154509628737,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "ILSXJJqcnt",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 65.15823552110287,
+              "y": 8.079824992803882,
+              "width": 1.2636571372491572,
+              "height": 3.688463178763683,
+              "rotation": 347.5154509628735,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "ApPTsUz0hS",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 63.5836917831565,
+              "y": 8.509246012243803,
+              "width": 1.2636571372491572,
+              "height": 3.688463178763683,
+              "rotation": 347.5154509628735,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "JMWbo07cMY",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 62.009148045210104,
+              "y": 8.795526691870418,
+              "width": 1.2636571372491572,
+              "height": 3.688463178763683,
+              "rotation": 347.5154509628735,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "8gV70VlXyV",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 60.363034137357076,
+              "y": 8.938667031683725,
+              "width": 1.2636571372491572,
+              "height": 3.688463178763683,
+              "rotation": 347.5154509628735,
+              "rectanglelabels": [
+                "military_vehicles"
+              ]
+            },
+            "id": "9dog9IgzNQ",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 0.2789400278940028,
+              "y": 0,
+              "width": 99.72105997210599,
+              "height": 99.72105997210599,
+              "rotation": 0,
+              "rectanglelabels": [
+                "roads_and_tracks"
+              ]
+            },
+            "id": "4zYYud5Tck",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          },
+          {
+            "original_width": 512,
+            "original_height": 512,
+            "image_rotation": 0,
+            "value": {
+              "x": 0.2789400278940028,
+              "y": 0,
+              "width": 99.72105997210599,
+              "height": 99.72105997210599,
+              "rotation": 0,
+              "rectanglelabels": [
+                "forest"
+              ]
+            },
+            "id": "vbTOBDfRe4",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2026-06-08T18:31:38.518545Z",
+        "updated_at": "2026-06-09T17:42:13.776944Z",
+        "draft_created_at": "2026-06-08T18:25:19.352956Z",
+        "lead_time": 2514.681,
+        "prediction": {},
+        "result_count": 29,
+        "unique_id": "6aa48c05-ecb4-41d1-a295-94ec50710add",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2,
+        "project": 3,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "4da0df8c-test_annotations_labelStudio.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "image": "/data/local-files/?d=images/test/GOLOSO_18/ChatGPT_goloso_r0_c4.jpeg"
+    },
+    "meta": {},
+    "created_at": "2026-06-08T18:17:00.321459Z",
+    "updated_at": "2026-06-09T17:42:13.888677Z",
+    "allow_skip": true,
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 3,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

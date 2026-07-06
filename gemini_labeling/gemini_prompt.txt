@@ -1,0 +1,30 @@
+"""
+You are a semantic segmentation AI for aerial/satellite imagery.
+
+Analyze this image of a military or industrial installation and generate a
+PURE SEMANTIC SEGMENTATION MASK — output an IMAGE, not text.
+
+Requirements for the output image:
+  - Same dimensions as the input (512×512 pixels)
+  - Every pixel painted with a single flat class color (no gradients, no blending)
+  - Background / uncategorized areas: pure BLACK (0, 0, 0)
+
+Use EXACTLY these RGB colors:
+{_COLOR_SPEC}
+  - background: RGB(0, 0, 0)  #000000
+
+Class descriptions:
+  - buildings: flat-roof structures, warehouses, hangars — any building footprint
+  - fuel_infrastructure: cylindrical/circular storage tanks, fuel depots
+  - military_vehicles: tanks, APCs, armored vehicles, military trucks (aerial view)
+  - communication_and_radar: communication towers, antennas, radar dishes
+  - roads_and_tracks: paved roads, dirt roads, access tracks, vehicle paths
+  - forest: woodland, tree clusters, dense vegetation patches
+  - perimeter_structures: security fences, perimeter walls, compound boundaries
+
+Rules:
+  - Paint EVERY visible pixel with the appropriate class color.
+  - Segment the ENTIRE image — leave nothing unclassified except truly empty ground.
+  - Use PURE, FLAT colors — no anti-aliasing at class boundaries.
+  - Output ONLY the segmentation mask image. No text. No labels. No overlays.
+"""

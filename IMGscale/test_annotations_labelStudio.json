@@ -1,0 +1,14 @@
+[
+  {
+    "data": {
+      "image": "/data/local-files/?d=images/test/GOLOSO_18/GOLOSO_18_2_tile_r00_c04.jpeg"
+    },
+    "predictions": []
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=images/test/GOLOSO_18/ChatGPT_goloso_r0_c4.jpeg"
+    },
+    "predictions": []
+  }
+]

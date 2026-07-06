@@ -1,0 +1,18 @@
+# GRDINO Pipeline - Dependencias
+# Instalar en la venv SAM_W:
+#   c:\TFM\SAM_W\Scripts\python.exe -m pip install -r requirements.txt
+
+# PyTorch con CUDA 12.4 (instalar manualmente):
+#   c:\TFM\SAM_W\Scripts\python.exe -m pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+
+# GroundingDINO
+groundingdino-py
+
+# SAM (ya instalado en SAM_W)
+# segment-anything
+
+# Utilities
+opencv-python
+numpy
+PyYAML
+supervision

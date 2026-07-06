@@ -1,0 +1,3094 @@
+{
+  "info": {
+    "description": "Military Facility Panoptic Segmentation Dataset V1",
+    "version": "1",
+    "year": 2026,
+    "contributor": "TFM",
+    "date_created": "2026/06/26"
+  },
+  "licenses": [],
+  "categories": [
+    {
+      "id": 1,
+      "name": "military_vehicles",
+      "supercategory": "military_facility",
+      "isthing": 1
+    },
+    {
+      "id": 2,
+      "name": "buildings",
+      "supercategory": "military_facility",
+      "isthing": 1
+    },
+    {
+      "id": 3,
+      "name": "fuel_infrastructure",
+      "supercategory": "military_facility",
+      "isthing": 1
+    },
+    {
+      "id": 4,
+      "name": "roads_and_tracks",
+      "supercategory": "military_facility",
+      "isthing": 0
+    },
+    {
+      "id": 5,
+      "name": "forest",
+      "supercategory": "military_facility",
+      "isthing": 0
+    },
+    {
+      "id": 6,
+      "name": "perimeter_structures",
+      "supercategory": "military_facility",
+      "isthing": 1
+    },
+    {
+      "id": 7,
+      "name": "communication_and_radar",
+      "supercategory": "military_facility",
+      "isthing": 1
+    }
+  ],
+  "images": [
+    {
+      "id": 1,
+      "file_name": "San_Clemente_tile_r00_c01.jpeg",
+      "height": 512,
+      "width": 512
+    },
+    {
+      "id": 2,
+      "file_name": "San_Clemente_tile_r00_c02.jpeg",
+      "height": 512,
+      "width": 512
+    },
+    {
+      "id": 3,
+      "file_name": "San_Clemente_tile_r01_c00.jpeg",
+      "height": 512,
+      "width": 512
+    },
+    {
+      "id": 4,
+      "file_name": "San_Clemente_tile_r01_c01.jpeg",
+      "height": 512,
+      "width": 512
+    },
+    {
+      "id": 5,
+      "file_name": "San_Clemente_tile_r01_c02.jpeg",
+      "height": 512,
+      "width": 512
+    },
+    {
+      "id": 6,
+      "file_name": "San_Clemente_tile_r02_c00.jpeg",
+      "height": 512,
+      "width": 512
+    },
+    {
+      "id": 7,
+      "file_name": "San_Clemente_tile_r02_c01.jpeg",
+      "height": 512,
+      "width": 512
+    },
+    {
+      "id": 8,
+      "file_name": "San_Clemente_tile_r02_c02.jpeg",
+      "height": 512,
+      "width": 512
+    },
+    {
+      "id": 9,
+      "file_name": "San_Clemente_tile_r03_c00.jpeg",
+      "height": 512,
+      "width": 512
+    },
+    {
+      "id": 10,
+      "file_name": "San_Clemente_tile_r03_c01.jpeg",
+      "height": 512,
+      "width": 512
+    },
+    {
+      "id": 11,
+      "file_name": "San_Clemente_tile_r03_c02.jpeg",
+      "height": 512,
+      "width": 512
+    }
+  ],
+  "annotations": [
+    {
+      "image_id": 1,
+      "file_name": "San_Clemente_tile_r00_c01_panoptic.png",
+      "segments_info": [
+        {
+          "id": 1,
+          "category_id": 4,
+          "iscrowd": 0,
+          "area": 49118,
+          "bbox": [
+            0,
+            0,
+            512,
+            512
+          ]
+        },
+        {
+          "id": 2,
+          "category_id": 5,
+          "iscrowd": 0,
+          "area": 59154,
+          "bbox": [
+            0,
+            0,
+            512,
+            512
+          ]
+        },
+        {
+          "id": 3,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 247,
+          "bbox": [
+            200,
+            456,
+            19,
+            25
+          ]
+        },
+        {
+          "id": 4,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 1473,
+          "bbox": [
+            488,
+            449,
+            24,
+            63
+          ]
+        },
+        {
+          "id": 5,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 18976,
+          "bbox": [
+            361,
+            120,
+            70,
+            284
+          ]
+        },
+        {
+          "id": 6,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 18753,
+          "bbox": [
+            246,
+            119,
+            68,
+            285
+          ]
+        },
+        {
+          "id": 7,
+          "category_id": 6,
+          "iscrowd": 0,
+          "area": 3252,
+          "bbox": [
+            25,
+            4,
+            485,
+            99
+          ]
+        },
+        {
+          "id": 8,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 788,
+          "bbox": [
+            425,
+            482,
+            27,
+            30
+          ]
+        },
+        {
+          "id": 9,
+          "category_id": 3,
+          "iscrowd": 0,
+          "area": 152,
+          "bbox": [
+            395,
+            406,
+            18,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": 2,
+      "file_name": "San_Clemente_tile_r00_c02_panoptic.png",
+      "segments_info": [
+        {
+          "id": 1,
+          "category_id": 4,
+          "iscrowd": 0,
+          "area": 45128,
+          "bbox": [
+            0,
+            0,
+            499,
+            512
+          ]
+        },
+        {
+          "id": 2,
+          "category_id": 5,
+          "iscrowd": 0,
+          "area": 61175,
+          "bbox": [
+            35,
+            0,
+            477,
+            512
+          ]
+        },
+        {
+          "id": 3,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 783,
+          "bbox": [
+            16,
+            482,
+            27,
+            30
+          ]
+        },
+        {
+          "id": 4,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 1123,
+          "bbox": [
+            457,
+            457,
+            24,
+            50
+          ]
+        },
+        {
+          "id": 5,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 1683,
+          "bbox": [
+            349,
+            451,
+            28,
+            61
+          ]
+        },
+        {
+          "id": 6,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 1661,
+          "bbox": [
+            416,
+            450,
+            29,
+            62
+          ]
+        },
+        {
+          "id": 7,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 1646,
+          "bbox": [
+            281,
+            450,
+            29,
+            62
+          ]
+        },
+        {
+          "id": 8,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 1647,
+          "bbox": [
+            214,
+            450,
+            27,
+            62
+          ]
+        },
+        {
+          "id": 9,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 1695,
+          "bbox": [
+            145,
+            450,
+            28,
+            62
+          ]
+        },
+        {
+          "id": 10,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 1665,
+          "bbox": [
+            77,
+            449,
+            28,
+            63
+          ]
+        },
+        {
+          "id": 11,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 1090,
+          "bbox": [
+            456,
+            366,
+            23,
+            51
+          ]
+        },
+        {
+          "id": 12,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 1964,
+          "bbox": [
+            493,
+            306,
+            19,
+            110
+          ]
+        },
+        {
+          "id": 13,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 4396,
+          "bbox": [
+            128,
+            302,
+            122,
+            67
+          ]
+        },
+        {
+          "id": 14,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 2002,
+          "bbox": [
+            448,
+            264,
+            32,
+            75
+          ]
+        },
+        {
+          "id": 15,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 5389,
+          "bbox": [
+            0,
+            119,
+            20,
+            285
+          ]
+        },
+        {
+          "id": 16,
+          "category_id": 6,
+          "iscrowd": 0,
+          "area": 1508,
+          "bbox": [
+            1,
+            0,
+            132,
+            32
+          ]
+        },
+        {
+          "id": 17,
+          "category_id": 6,
+          "iscrowd": 0,
+          "area": 1491,
+          "bbox": [
+            453,
+            0,
+            58,
+            224
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": 3,
+      "file_name": "San_Clemente_tile_r01_c00_panoptic.png",
+      "segments_info": [
+        {
+          "id": 1,
+          "category_id": 4,
+          "iscrowd": 0,
+          "area": 67598,
+          "bbox": [
+            0,
+            0,
+            512,
+            512
+          ]
+        },
+        {
+          "id": 2,
+          "category_id": 5,
+          "iscrowd": 0,
+          "area": 122540,
+          "bbox": [
+            0,
+            0,
+            512,
+            512
+          ]
+        },
+        {
+          "id": 3,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 724,
+          "bbox": [
+            432,
+            488,
+            55,
+            24
+          ]
+        },
+        {
+          "id": 4,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 8390,
+          "bbox": [
+            247,
+            415,
+            135,
+            97
+          ]
+        },
+        {
+          "id": 5,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 1123,
+          "bbox": [
+            482,
+            264,
+            30,
+            69
+          ]
+        },
+        {
+          "id": 6,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 15188,
+          "bbox": [
+            293,
+            87,
+            204,
+            337
+          ]
+        },
+        {
+          "id": 7,
+          "category_id": 6,
+          "iscrowd": 0,
+          "area": 7228,
+          "bbox": [
+            52,
+            0,
+            173,
+            511
+          ]
+        },
+        {
+          "id": 8,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 46,
+          "bbox": [
+            480,
+            264,
+            10,
+            8
+          ]
+        },
+        {
+          "id": 9,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 139,
+          "bbox": [
+            480,
+            414,
+            17,
+            13
+          ]
+        },
+        {
+          "id": 10,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 144,
+          "bbox": [
+            484,
+            423,
+            18,
+            13
+          ]
+        },
+        {
+          "id": 11,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 131,
+          "bbox": [
+            487,
+            433,
+            18,
+            12
+          ]
+        },
+        {
+          "id": 12,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 151,
+          "bbox": [
+            436,
+            491,
+            19,
+            12
+          ]
+        },
+        {
+          "id": 13,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 60,
+          "bbox": [
+            477,
+            259,
+            10,
+            8
+          ]
+        },
+        {
+          "id": 14,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 60,
+          "bbox": [
+            497,
+            244,
+            10,
+            8
+          ]
+        },
+        {
+          "id": 15,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 81,
+          "bbox": [
+            489,
+            233,
+            13,
+            11
+          ]
+        },
+        {
+          "id": 16,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 108,
+          "bbox": [
+            484,
+            226,
+            13,
+            12
+          ]
+        },
+        {
+          "id": 17,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 121,
+          "bbox": [
+            479,
+            219,
+            13,
+            13
+          ]
+        },
+        {
+          "id": 18,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 229,
+          "bbox": [
+            463,
+            225,
+            18,
+            19
+          ]
+        },
+        {
+          "id": 19,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 173,
+          "bbox": [
+            464,
+            243,
+            22,
+            13
+          ]
+        },
+        {
+          "id": 20,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 98,
+          "bbox": [
+            438,
+            242,
+            12,
+            11
+          ]
+        },
+        {
+          "id": 21,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 95,
+          "bbox": [
+            431,
+            227,
+            12,
+            10
+          ]
+        },
+        {
+          "id": 22,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 6,
+          "bbox": [
+            447,
+            223,
+            7,
+            2
+          ]
+        },
+        {
+          "id": 23,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 126,
+          "bbox": [
+            443,
+            224,
+            13,
+            14
+          ]
+        },
+        {
+          "id": 24,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 48,
+          "bbox": [
+            451,
+            233,
+            8,
+            8
+          ]
+        },
+        {
+          "id": 25,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 46,
+          "bbox": [
+            437,
+            211,
+            8,
+            8
+          ]
+        },
+        {
+          "id": 26,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 51,
+          "bbox": [
+            431,
+            206,
+            10,
+            8
+          ]
+        },
+        {
+          "id": 27,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 44,
+          "bbox": [
+            428,
+            202,
+            8,
+            7
+          ]
+        },
+        {
+          "id": 28,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 56,
+          "bbox": [
+            424,
+            194,
+            10,
+            8
+          ]
+        },
+        {
+          "id": 29,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 42,
+          "bbox": [
+            422,
+            188,
+            8,
+            7
+          ]
+        },
+        {
+          "id": 30,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 81,
+          "bbox": [
+            398,
+            148,
+            10,
+            11
+          ]
+        },
+        {
+          "id": 31,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 127,
+          "bbox": [
+            387,
+            134,
+            14,
+            12
+          ]
+        },
+        {
+          "id": 32,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 56,
+          "bbox": [
+            405,
+            163,
+            12,
+            8
+          ]
+        },
+        {
+          "id": 33,
+          "category_id": 3,
+          "iscrowd": 0,
+          "area": 1571,
+          "bbox": [
+            247,
+            0,
+            56,
+            49
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": 4,
+      "file_name": "San_Clemente_tile_r01_c01_panoptic.png",
+      "segments_info": [
+        {
+          "id": 1,
+          "category_id": 4,
+          "iscrowd": 0,
+          "area": 59037,
+          "bbox": [
+            0,
+            0,
+            512,
+            512
+          ]
+        },
+        {
+          "id": 2,
+          "category_id": 5,
+          "iscrowd": 0,
+          "area": 42957,
+          "bbox": [
+            116,
+            4,
+            343,
+            508
+          ]
+        },
+        {
+          "id": 3,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 4705,
+          "bbox": [
+            413,
+            416,
+            54,
+            96
+          ]
+        },
+        {
+          "id": 4,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 1344,
+          "bbox": [
+            245,
+            312,
+            46,
+            50
+          ]
+        },
+        {
+          "id": 5,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 6129,
+          "bbox": [
+            72,
+            261,
+            99,
+            132
+          ]
+        },
+        {
+          "id": 6,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 6335,
+          "bbox": [
+            0,
+            239,
+            88,
+            186
+          ]
+        },
+        {
+          "id": 7,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 693,
+          "bbox": [
+            112,
+            231,
+            39,
+            36
+          ]
+        },
+        {
+          "id": 8,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 385,
+          "bbox": [
+            365,
+            225,
+            17,
+            28
+          ]
+        },
+        {
+          "id": 9,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 413,
+          "bbox": [
+            99,
+            214,
+            29,
+            28
+          ]
+        },
+        {
+          "id": 10,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 3542,
+          "bbox": [
+            231,
+            206,
+            87,
+            109
+          ]
+        },
+        {
+          "id": 11,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 1087,
+          "bbox": [
+            144,
+            184,
+            49,
+            56
+          ]
+        },
+        {
+          "id": 12,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 1761,
+          "bbox": [
+            416,
+            184,
+            35,
+            58
+          ]
+        },
+        {
+          "id": 13,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 1081,
+          "bbox": [
+            56,
+            158,
+            41,
+            51
+          ]
+        },
+        {
+          "id": 14,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 377,
+          "bbox": [
+            47,
+            141,
+            26,
+            26
+          ]
+        },
+        {
+          "id": 15,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 280,
+          "bbox": [
+            111,
+            138,
+            19,
+            23
+          ]
+        },
+        {
+          "id": 16,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 352,
+          "bbox": [
+            35,
+            120,
+            23,
+            26
+          ]
+        },
+        {
+          "id": 17,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 1038,
+          "bbox": [
+            173,
+            118,
+            46,
+            45
+          ]
+        },
+        {
+          "id": 18,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 283,
+          "bbox": [
+            79,
+            97,
+            20,
+            23
+          ]
+        },
+        {
+          "id": 19,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 716,
+          "bbox": [
+            156,
+            89,
+            34,
+            37
+          ]
+        },
+        {
+          "id": 20,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 183,
+          "bbox": [
+            239,
+            87,
+            16,
+            18
+          ]
+        },
+        {
+          "id": 21,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 2130,
+          "bbox": [
+            419,
+            72,
+            35,
+            75
+          ]
+        },
+        {
+          "id": 22,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 496,
+          "bbox": [
+            131,
+            57,
+            28,
+            31
+          ]
+        },
+        {
+          "id": 23,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 5621,
+          "bbox": [
+            478,
+            40,
+            34,
+            218
+          ]
+        },
+        {
+          "id": 24,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 549,
+          "bbox": [
+            106,
+            32,
+            31,
+            32
+          ]
+        },
+        {
+          "id": 25,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 86,
+          "bbox": [
+            483,
+            411,
+            10,
+            10
+          ]
+        },
+        {
+          "id": 26,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 125,
+          "bbox": [
+            476,
+            422,
+            17,
+            11
+          ]
+        },
+        {
+          "id": 27,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 65,
+          "bbox": [
+            482,
+            432,
+            10,
+            8
+          ]
+        },
+        {
+          "id": 28,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 133,
+          "bbox": [
+            26,
+            491,
+            16,
+            12
+          ]
+        },
+        {
+          "id": 29,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 109,
+          "bbox": [
+            79,
+            433,
+            17,
+            11
+          ]
+        },
+        {
+          "id": 30,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 110,
+          "bbox": [
+            78,
+            423,
+            15,
+            12
+          ]
+        },
+        {
+          "id": 31,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 126,
+          "bbox": [
+            71,
+            414,
+            16,
+            13
+          ]
+        },
+        {
+          "id": 32,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 120,
+          "bbox": [
+            61,
+            259,
+            16,
+            13
+          ]
+        },
+        {
+          "id": 33,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 48,
+          "bbox": [
+            71,
+            265,
+            9,
+            7
+          ]
+        },
+        {
+          "id": 34,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 72,
+          "bbox": [
+            88,
+            244,
+            11,
+            8
+          ]
+        },
+        {
+          "id": 35,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 54,
+          "bbox": [
+            79,
+            234,
+            9,
+            10
+          ]
+        },
+        {
+          "id": 36,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 97,
+          "bbox": [
+            70,
+            219,
+            12,
+            12
+          ]
+        },
+        {
+          "id": 37,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 89,
+          "bbox": [
+            75,
+            227,
+            12,
+            11
+          ]
+        },
+        {
+          "id": 38,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 89,
+          "bbox": [
+            55,
+            232,
+            13,
+            10
+          ]
+        },
+        {
+          "id": 39,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 126,
+          "bbox": [
+            59,
+            243,
+            18,
+            12
+          ]
+        },
+        {
+          "id": 40,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 77,
+          "bbox": [
+            9,
+            188,
+            12,
+            9
+          ]
+        },
+        {
+          "id": 41,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 49,
+          "bbox": [
+            14,
+            195,
+            9,
+            7
+          ]
+        },
+        {
+          "id": 42,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 47,
+          "bbox": [
+            18,
+            202,
+            9,
+            7
+          ]
+        },
+        {
+          "id": 43,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 46,
+          "bbox": [
+            22,
+            207,
+            9,
+            7
+          ]
+        },
+        {
+          "id": 44,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 37,
+          "bbox": [
+            28,
+            212,
+            8,
+            6
+          ]
+        },
+        {
+          "id": 45,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 48,
+          "bbox": [
+            27,
+            227,
+            7,
+            9
+          ]
+        },
+        {
+          "id": 46,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 40,
+          "bbox": [
+            36,
+            230,
+            8,
+            7
+          ]
+        },
+        {
+          "id": 47,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 20,
+          "bbox": [
+            44,
+            233,
+            5,
+            6
+          ]
+        },
+        {
+          "id": 48,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 79,
+          "bbox": [
+            29,
+            242,
+            10,
+            11
+          ]
+        },
+        {
+          "id": 49,
+          "category_id": 3,
+          "iscrowd": 0,
+          "area": 251,
+          "bbox": [
+            380,
+            153,
+            26,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": 5,
+      "file_name": "San_Clemente_tile_r01_c02_panoptic.png",
+      "segments_info": [
+        {
+          "id": 1,
+          "category_id": 4,
+          "iscrowd": 0,
+          "area": 95127,
+          "bbox": [
+            0,
+            0,
+            505,
+            512
+          ]
+        },
+        {
+          "id": 2,
+          "category_id": 5,
+          "iscrowd": 0,
+          "area": 28904,
+          "bbox": [
+            61,
+            34,
+            451,
+            478
+          ]
+        },
+        {
+          "id": 3,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 3061,
+          "bbox": [
+            328,
+            485,
+            115,
+            27
+          ]
+        },
+        {
+          "id": 4,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 4859,
+          "bbox": [
+            2,
+            417,
+            55,
+            95
+          ]
+        },
+        {
+          "id": 5,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 9960,
+          "bbox": [
+            328,
+            360,
+            124,
+            118
+          ]
+        },
+        {
+          "id": 6,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 1902,
+          "bbox": [
+            450,
+            282,
+            29,
+            71
+          ]
+        },
+        {
+          "id": 7,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 8053,
+          "bbox": [
+            327,
+            280,
+            116,
+            72
+          ]
+        },
+        {
+          "id": 8,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 472,
+          "bbox": [
+            472,
+            226,
+            17,
+            31
+          ]
+        },
+        {
+          "id": 9,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 1695,
+          "bbox": [
+            7,
+            184,
+            34,
+            58
+          ]
+        },
+        {
+          "id": 10,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 1474,
+          "bbox": [
+            455,
+            127,
+            28,
+            62
+          ]
+        },
+        {
+          "id": 11,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 2405,
+          "bbox": [
+            8,
+            72,
+            35,
+            74
+          ]
+        },
+        {
+          "id": 12,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 1313,
+          "bbox": [
+            456,
+            48,
+            28,
+            52
+          ]
+        },
+        {
+          "id": 13,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 6066,
+          "bbox": [
+            408,
+            41,
+            35,
+            216
+          ]
+        },
+        {
+          "id": 14,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 6339,
+          "bbox": [
+            338,
+            41,
+            39,
+            216
+          ]
+        },
+        {
+          "id": 15,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 6073,
+          "bbox": [
+            272,
+            41,
+            38,
+            216
+          ]
+        },
+        {
+          "id": 16,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 6328,
+          "bbox": [
+            205,
+            41,
+            37,
+            217
+          ]
+        },
+        {
+          "id": 17,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 6373,
+          "bbox": [
+            67,
+            41,
+            39,
+            218
+          ]
+        },
+        {
+          "id": 18,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 6402,
+          "bbox": [
+            136,
+            40,
+            39,
+            217
+          ]
+        },
+        {
+          "id": 19,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 80,
+          "bbox": [
+            73,
+            411,
+            9,
+            10
+          ]
+        },
+        {
+          "id": 20,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 29,
+          "bbox": [
+            72,
+            423,
+            9,
+            6
+          ]
+        },
+        {
+          "id": 21,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 61,
+          "bbox": [
+            72,
+            432,
+            10,
+            8
+          ]
+        },
+        {
+          "id": 22,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 138,
+          "bbox": [
+            189,
+            258,
+            17,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": 6,
+      "file_name": "San_Clemente_tile_r02_c00_panoptic.png",
+      "segments_info": [
+        {
+          "id": 1,
+          "category_id": 4,
+          "iscrowd": 0,
+          "area": 61024,
+          "bbox": [
+            5,
+            0,
+            507,
+            512
+          ]
+        },
+        {
+          "id": 2,
+          "category_id": 5,
+          "iscrowd": 0,
+          "area": 45662,
+          "bbox": [
+            0,
+            224,
+            345,
+            288
+          ]
+        },
+        {
+          "id": 3,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 26305,
+          "bbox": [
+            74,
+            82,
+            245,
+            272
+          ]
+        },
+        {
+          "id": 4,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 20827,
+          "bbox": [
+            304,
+            79,
+            208,
+            184
+          ]
+        },
+        {
+          "id": 5,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 10173,
+          "bbox": [
+            245,
+            5,
+            139,
+            132
+          ]
+        },
+        {
+          "id": 6,
+          "category_id": 3,
+          "iscrowd": 0,
+          "area": 313,
+          "bbox": [
+            33,
+            253,
+            21,
+            20
+          ]
+        },
+        {
+          "id": 7,
+          "category_id": 6,
+          "iscrowd": 0,
+          "area": 6934,
+          "bbox": [
+            0,
+            0,
+            216,
+            409
+          ]
+        },
+        {
+          "id": 8,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 106,
+          "bbox": [
+            483,
+            6,
+            15,
+            11
+          ]
+        },
+        {
+          "id": 9,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 127,
+          "bbox": [
+            485,
+            13,
+            17,
+            12
+          ]
+        },
+        {
+          "id": 10,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 111,
+          "bbox": [
+            491,
+            23,
+            15,
+            12
+          ]
+        },
+        {
+          "id": 11,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 138,
+          "bbox": [
+            436,
+            81,
+            18,
+            11
+          ]
+        },
+        {
+          "id": 12,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 81,
+          "bbox": [
+            221,
+            172,
+            8,
+            13
+          ]
+        },
+        {
+          "id": 13,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 11,
+          "bbox": [
+            321,
+            348,
+            32,
+            30
+          ]
+        },
+        {
+          "id": 14,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 6,
+          "bbox": [
+            374,
+            323,
+            47,
+            95
+          ]
+        },
+        {
+          "id": 15,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 7,
+          "bbox": [
+            429,
+            292,
+            35,
+            75
+          ]
+        },
+        {
+          "id": 16,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 2038,
+          "bbox": [
+            359,
+            473,
+            76,
+            39
+          ]
+        },
+        {
+          "id": 17,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 1903,
+          "bbox": [
+            433,
+            445,
+            58,
+            67
+          ]
+        },
+        {
+          "id": 18,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 2726,
+          "bbox": [
+            314,
+            348,
+            68,
+            98
+          ]
+        },
+        {
+          "id": 19,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 2710,
+          "bbox": [
+            366,
+            320,
+            67,
+            97
+          ]
+        },
+        {
+          "id": 20,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 2952,
+          "bbox": [
+            429,
+            284,
+            71,
+            101
+          ]
+        },
+        {
+          "id": 21,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 514,
+          "bbox": [
+            452,
+            400,
+            27,
+            27
+          ]
+        },
+        {
+          "id": 22,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 1178,
+          "bbox": [
+            481,
+            257,
+            31,
+            72
+          ]
+        },
+        {
+          "id": 23,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 468,
+          "bbox": [
+            494,
+            414,
+            18,
+            46
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": 7,
+      "file_name": "San_Clemente_tile_r02_c01_panoptic.png",
+      "segments_info": [
+        {
+          "id": 1,
+          "category_id": 4,
+          "iscrowd": 0,
+          "area": 102383,
+          "bbox": [
+            0,
+            0,
+            512,
+            512
+          ]
+        },
+        {
+          "id": 2,
+          "category_id": 5,
+          "iscrowd": 0,
+          "area": 30329,
+          "bbox": [
+            125,
+            0,
+            387,
+            281
+          ]
+        },
+        {
+          "id": 3,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 409,
+          "bbox": [
+            89,
+            488,
+            24,
+            24
+          ]
+        },
+        {
+          "id": 4,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 211,
+          "bbox": [
+            0,
+            486,
+            14,
+            26
+          ]
+        },
+        {
+          "id": 5,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 1930,
+          "bbox": [
+            23,
+            445,
+            58,
+            67
+          ]
+        },
+        {
+          "id": 6,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 2898,
+          "bbox": [
+            85,
+            408,
+            72,
+            104
+          ]
+        },
+        {
+          "id": 7,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 881,
+          "bbox": [
+            492,
+            396,
+            17,
+            59
+          ]
+        },
+        {
+          "id": 8,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 2922,
+          "bbox": [
+            137,
+            381,
+            72,
+            101
+          ]
+        },
+        {
+          "id": 9,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 329,
+          "bbox": [
+            492,
+            365,
+            15,
+            23
+          ]
+        },
+        {
+          "id": 10,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 802,
+          "bbox": [
+            0,
+            359,
+            24,
+            59
+          ]
+        },
+        {
+          "id": 11,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 338,
+          "bbox": [
+            492,
+            313,
+            15,
+            25
+          ]
+        },
+        {
+          "id": 12,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 2952,
+          "bbox": [
+            18,
+            284,
+            73,
+            101
+          ]
+        },
+        {
+          "id": 13,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 2960,
+          "bbox": [
+            72,
+            256,
+            72,
+            103
+          ]
+        },
+        {
+          "id": 14,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 930,
+          "bbox": [
+            490,
+            248,
+            17,
+            59
+          ]
+        },
+        {
+          "id": 15,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 11067,
+          "bbox": [
+            0,
+            80,
+            112,
+            159
+          ]
+        },
+        {
+          "id": 16,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 5373,
+          "bbox": [
+            413,
+            8,
+            54,
+            112
+          ]
+        },
+        {
+          "id": 17,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 176,
+          "bbox": [
+            74,
+            13,
+            19,
+            14
+          ]
+        },
+        {
+          "id": 18,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 112,
+          "bbox": [
+            78,
+            24,
+            18,
+            11
+          ]
+        },
+        {
+          "id": 19,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 96,
+          "bbox": [
+            75,
+            6,
+            13,
+            11
+          ]
+        },
+        {
+          "id": 20,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 562,
+          "bbox": [
+            38,
+            402,
+            31,
+            27
+          ]
+        },
+        {
+          "id": 21,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 80,
+          "bbox": [
+            483,
+            2,
+            9,
+            10
+          ]
+        },
+        {
+          "id": 22,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 51,
+          "bbox": [
+            480,
+            13,
+            12,
+            7
+          ]
+        },
+        {
+          "id": 23,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 59,
+          "bbox": [
+            482,
+            23,
+            10,
+            8
+          ]
+        },
+        {
+          "id": 24,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 145,
+          "bbox": [
+            25,
+            81,
+            19,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": 8,
+      "file_name": "San_Clemente_tile_r02_c02_panoptic.png",
+      "segments_info": [
+        {
+          "id": 1,
+          "category_id": 4,
+          "iscrowd": 0,
+          "area": 65225,
+          "bbox": [
+            0,
+            0,
+            473,
+            512
+          ]
+        },
+        {
+          "id": 2,
+          "category_id": 5,
+          "iscrowd": 0,
+          "area": 81304,
+          "bbox": [
+            73,
+            0,
+            439,
+            512
+          ]
+        },
+        {
+          "id": 3,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 2301,
+          "bbox": [
+            221,
+            481,
+            132,
+            31
+          ]
+        },
+        {
+          "id": 4,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 4170,
+          "bbox": [
+            154,
+            398,
+            46,
+            114
+          ]
+        },
+        {
+          "id": 5,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 3489,
+          "bbox": [
+            366,
+            181,
+            42,
+            99
+          ]
+        },
+        {
+          "id": 7,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 744,
+          "bbox": [
+            362,
+            150,
+            31,
+            24
+          ]
+        },
+        {
+          "id": 8,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 17511,
+          "bbox": [
+            227,
+            141,
+            78,
+            236
+          ]
+        },
+        {
+          "id": 9,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 8031,
+          "bbox": [
+            328,
+            72,
+            115,
+            75
+          ]
+        },
+        {
+          "id": 10,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 5471,
+          "bbox": [
+            2,
+            8,
+            56,
+            112
+          ]
+        },
+        {
+          "id": 11,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 5889,
+          "bbox": [
+            328,
+            0,
+            124,
+            66
+          ]
+        },
+        {
+          "id": 12,
+          "category_id": 3,
+          "iscrowd": 0,
+          "area": 535,
+          "bbox": [
+            439,
+            167,
+            24,
+            25
+          ]
+        },
+        {
+          "id": 13,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 1476,
+          "bbox": [
+            70,
+            249,
+            27,
+            58
+          ]
+        },
+        {
+          "id": 14,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 692,
+          "bbox": [
+            70,
+            314,
+            31,
+            24
+          ]
+        },
+        {
+          "id": 15,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 190,
+          "bbox": [
+            81,
+            345,
+            19,
+            12
+          ]
+        },
+        {
+          "id": 16,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 443,
+          "bbox": [
+            81,
+            364,
+            20,
+            24
+          ]
+        },
+        {
+          "id": 17,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 969,
+          "bbox": [
+            81,
+            396,
+            17,
+            58
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": 9,
+      "file_name": "San_Clemente_tile_r03_c00_panoptic.png",
+      "segments_info": [
+        {
+          "id": 1,
+          "category_id": 4,
+          "iscrowd": 0,
+          "area": 45058,
+          "bbox": [
+            0,
+            0,
+            512,
+            512
+          ]
+        },
+        {
+          "id": 2,
+          "category_id": 5,
+          "iscrowd": 0,
+          "area": 165294,
+          "bbox": [
+            0,
+            0,
+            512,
+            512
+          ]
+        },
+        {
+          "id": 3,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 4410,
+          "bbox": [
+            448,
+            216,
+            64,
+            162
+          ]
+        },
+        {
+          "id": 4,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 286,
+          "bbox": [
+            498,
+            157,
+            14,
+            32
+          ]
+        },
+        {
+          "id": 5,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 2781,
+          "bbox": [
+            380,
+            138,
+            68,
+            99
+          ]
+        },
+        {
+          "id": 6,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 2822,
+          "bbox": [
+            432,
+            110,
+            68,
+            99
+          ]
+        },
+        {
+          "id": 7,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 425,
+          "bbox": [
+            494,
+            80,
+            18,
+            41
+          ]
+        },
+        {
+          "id": 8,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 513,
+          "bbox": [
+            240,
+            16,
+            41,
+            31
+          ]
+        },
+        {
+          "id": 9,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 2827,
+          "bbox": [
+            313,
+            14,
+            70,
+            99
+          ]
+        },
+        {
+          "id": 10,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 1751,
+          "bbox": [
+            444,
+            0,
+            56,
+            51
+          ]
+        },
+        {
+          "id": 11,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 2498,
+          "bbox": [
+            367,
+            0,
+            66,
+            83
+          ]
+        },
+        {
+          "id": 12,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 510,
+          "bbox": [
+            173,
+            0,
+            45,
+            20
+          ]
+        },
+        {
+          "id": 13,
+          "category_id": 6,
+          "iscrowd": 0,
+          "area": 1761,
+          "bbox": [
+            330,
+            233,
+            163,
+            145
+          ]
+        },
+        {
+          "id": 14,
+          "category_id": 6,
+          "iscrowd": 0,
+          "area": 1201,
+          "bbox": [
+            220,
+            86,
+            82,
+            109
+          ]
+        },
+        {
+          "id": 15,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 564,
+          "bbox": [
+            447,
+            66,
+            31,
+            27
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": 10,
+      "file_name": "San_Clemente_tile_r03_c01_panoptic.png",
+      "segments_info": [
+        {
+          "id": 1,
+          "category_id": 4,
+          "iscrowd": 0,
+          "area": 75965,
+          "bbox": [
+            0,
+            0,
+            512,
+            512
+          ]
+        },
+        {
+          "id": 2,
+          "category_id": 5,
+          "iscrowd": 0,
+          "area": 29497,
+          "bbox": [
+            0,
+            249,
+            457,
+            263
+          ]
+        },
+        {
+          "id": 3,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 4946,
+          "bbox": [
+            239,
+            359,
+            123,
+            96
+          ]
+        },
+        {
+          "id": 4,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 1799,
+          "bbox": [
+            482,
+            355,
+            30,
+            92
+          ]
+        },
+        {
+          "id": 5,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 2429,
+          "bbox": [
+            361,
+            311,
+            65,
+            65
+          ]
+        },
+        {
+          "id": 6,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 7615,
+          "bbox": [
+            38,
+            199,
+            109,
+            200
+          ]
+        },
+        {
+          "id": 7,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 549,
+          "bbox": [
+            88,
+            154,
+            25,
+            33
+          ]
+        },
+        {
+          "id": 8,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 1612,
+          "bbox": [
+            0,
+            151,
+            39,
+            86
+          ]
+        },
+        {
+          "id": 9,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 2723,
+          "bbox": [
+            22,
+            111,
+            67,
+            98
+          ]
+        },
+        {
+          "id": 10,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 2913,
+          "bbox": [
+            85,
+            74,
+            72,
+            102
+          ]
+        },
+        {
+          "id": 11,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 983,
+          "bbox": [
+            490,
+            62,
+            19,
+            59
+          ]
+        },
+        {
+          "id": 12,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 2570,
+          "bbox": [
+            137,
+            48,
+            65,
+            98
+          ]
+        },
+        {
+          "id": 13,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 360,
+          "bbox": [
+            490,
+            30,
+            16,
+            25
+          ]
+        },
+        {
+          "id": 14,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 793,
+          "bbox": [
+            0,
+            24,
+            24,
+            62
+          ]
+        },
+        {
+          "id": 15,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 580,
+          "bbox": [
+            104,
+            0,
+            40,
+            24
+          ]
+        },
+        {
+          "id": 16,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 1367,
+          "bbox": [
+            38,
+            0,
+            49,
+            50
+          ]
+        },
+        {
+          "id": 17,
+          "category_id": 6,
+          "iscrowd": 0,
+          "area": 681,
+          "bbox": [
+            147,
+            428,
+            91,
+            84
+          ]
+        },
+        {
+          "id": 18,
+          "category_id": 6,
+          "iscrowd": 0,
+          "area": 1768,
+          "bbox": [
+            1,
+            287,
+            153,
+            149
+          ]
+        },
+        {
+          "id": 19,
+          "category_id": 6,
+          "iscrowd": 0,
+          "area": 934,
+          "bbox": [
+            283,
+            419,
+            129,
+            87
+          ]
+        },
+        {
+          "id": 20,
+          "category_id": 1,
+          "iscrowd": 0,
+          "area": 288,
+          "bbox": [
+            230,
+            229,
+            19,
+            18
+          ]
+        },
+        {
+          "id": 21,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 571,
+          "bbox": [
+            40,
+            66,
+            29,
+            29
+          ]
+        },
+        {
+          "id": 22,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 220,
+          "bbox": [
+            436,
+            309,
+            21,
+            16
+          ]
+        },
+        {
+          "id": 23,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 173,
+          "bbox": [
+            490,
+            11,
+            19,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": 11,
+      "file_name": "San_Clemente_tile_r03_c02_panoptic.png",
+      "segments_info": [
+        {
+          "id": 1,
+          "category_id": 4,
+          "iscrowd": 0,
+          "area": 96021,
+          "bbox": [
+            0,
+            0,
+            512,
+            494
+          ]
+        },
+        {
+          "id": 2,
+          "category_id": 5,
+          "iscrowd": 0,
+          "area": 105053,
+          "bbox": [
+            0,
+            0,
+            512,
+            512
+          ]
+        },
+        {
+          "id": 3,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 4065,
+          "bbox": [
+            329,
+            354,
+            72,
+            87
+          ]
+        },
+        {
+          "id": 4,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 3253,
+          "bbox": [
+            73,
+            354,
+            54,
+            93
+          ]
+        },
+        {
+          "id": 5,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 5552,
+          "bbox": [
+            170,
+            322,
+            94,
+            105
+          ]
+        },
+        {
+          "id": 6,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 378,
+          "bbox": [
+            0,
+            318,
+            17,
+            41
+          ]
+        },
+        {
+          "id": 7,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 330,
+          "bbox": [
+            365,
+            312,
+            19,
+            26
+          ]
+        },
+        {
+          "id": 8,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 9078,
+          "bbox": [
+            145,
+            64,
+            71,
+            212
+          ]
+        },
+        {
+          "id": 9,
+          "category_id": 3,
+          "iscrowd": 0,
+          "area": 1558,
+          "bbox": [
+            401,
+            291,
+            56,
+            51
+          ]
+        },
+        {
+          "id": 10,
+          "category_id": 2,
+          "iscrowd": 0,
+          "area": 3174,
+          "bbox": [
+            226,
+            0,
+            79,
+            41
+          ]
+        },
+        {
+          "id": 11,
+          "category_id": 6,
+          "iscrowd": 0,
+          "area": 2459,
+          "bbox": [
+            28,
+            421,
+            483,
+            60
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+# Location-based split configuration
+# Edit this file to assign each location to train, val, or test.
+# Every location must appear in exactly one list.
+#
+# Available locations (9 total, 101 tiles):
+#   Cabo_Noval, Constantina_radar, Frasno_radar, General_menacho_botoa,
+#   GOLOSO_18, Penas_del_chache_radar, Pozo_Canarias_radar, San_Clemente, Viator
+#
+# Usage:
+#   python create_dataset.py --version 1 --split location
+
+train:
+  - Cabo_Noval
+  - Constantina_radar
+  - Frasno_radar
+  - Viator
+  - GOLOSO_18
+  - Penas_del_chache_radar
+  - Pozo_Canarias_radar
+
+val:
+  - San_Clemente
+
+test:
+  - General_menacho_botoa
