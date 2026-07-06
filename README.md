@@ -103,7 +103,7 @@ python enhance_images.py --mode openai   # vía API (editar prompt_openai.txt)
 Los pesos de RealESRGAN (`weights/RealESRGAN_x4plus.pth`, ~64 MB) no están incluidos; se descargan automáticamente al primer uso.
 
 ### `analizer/`
-Análisis comparativo de modelos de segmentación panóptica: **Mask2Former**, **DETR-Panoptic** y **PSM-DIQ**.
+Análisis comparativo de modelos de segmentación panóptica:  **Panoptic Swifnet**, **Mask2Former** y **DETR-Panoptic**.
 
 - `comparative_analysis.ipynb` — notebook de evaluación y métricas (PQ, SQ, RQ, IoU)
 - `config.yaml` — parámetros de evaluación
