@@ -14,13 +14,13 @@ Google Maps Web          ─►  src/dataset/dataset_V1   (tiles 512×512 px)
      ▼
 [Pipeline 1 — GRDINO]   ─►  GroundingDINO + SAM → anotaciones Label Studio
 [Pipeline 2 — Labeling]  ─►  SAM ML Backend (Docker) + revisión manual
-[Gemini Labeling]        ─►  Segmentación asistida por Gemini 1.5 Pro
+[Gemini Labeling]        ─►  Segmentación asistida por Gemini 3.1 flash image
      │
      ▼
 Dataset_Creator          ─►  Exporta a formato COCO panóptico
      │
      ▼
-[Pipeline 3 — Analizer]  ─►  Entrenamiento y evaluación (Mask2Former, DETR, PSM-DIQ)
+[Pipeline 3 — Analizer]  ─►  Entrenamiento y evaluación (Panoptic Swifnet, Mask2Former, DETR)
 ```
 
 ---
